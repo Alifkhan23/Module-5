@@ -5,27 +5,32 @@ body{
 h1{
     font-size: 30px;
 }
+h3{
+    font-size: 20px;
+}
 p{
     color: dimgray;
 }
 .pink{
     color:deeppink;
 }
-.Half-widh{
+.half-width{
+    height:100%;
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
 }
-.Half-widh img{
-    width: 100%;
+.top-banner img{
+    width: 70%;
 }
 .top-banner{
     background-image: url(personal-website/header-bg.png);
     background-repeat: no-repeat;
 }
+
 section{
-    height: 500px;
+    height: 700px;
     padding-bottom: 300px;
 }
 .link-button{
@@ -38,8 +43,39 @@ section{
 
 
 .boigraphy-area{
-    background-image: url(personal-website/footer-bg.png);
+    background-image: url(personal-website/biography-bg.png);
     background-repeat: no-repeat;
-    background-position: left;
+}
+.boigraphy-area img{
+    width: 70%;
+}
 
+
+.last{
+    background-image: url(personal-website/footer-bg.png);
+}
+.text{
+    text-align: center;
+}
+.last-image img{
+    width: 33%;
+    height: 33%;
+
+}
+.text2{
+    text-align: center;
+}
+.last-button{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(deeppink, pink);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+footer p{
+    text-align: center;
+    color: deeppink;
+    font-size: 20px;
 }
